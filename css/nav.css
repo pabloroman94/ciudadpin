@@ -1,0 +1,98 @@
+#sidebar {
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    background: #151719;
+    left: -200px;
+    transition: all 300ms linear;
+    margin: auto;
+  }
+  
+  #sidebar.active {
+    left: 0px;
+  }
+  
+  #sidebar ul li {
+    color: rgba(230, 230, 230, .9);
+    list-style: none;
+    display: block;
+    padding: 15px 10px;
+    border-bottom: 1px solid rgba(100, 100, 100, .3);
+    text-align: center;
+    margin: auto;
+  }
+  
+  .logo {
+    border-radius: 50%;
+    border: 3px solid #000;
+    width: 40%;
+    height: 40%;
+    display: block;
+    margin: 0 auto; 
+  }
+  
+  #sidebar .toggle-btn {
+    width: 15px;
+    font-size: 40px;
+    cursor: pointer;
+    float: right;
+    margin: auto;
+  }
+  
+  /* #sidebar .toggle-btn span {
+    display: block;
+    width: 40px;
+    text-align: center;
+    font-size: 30px;
+    border: 3px solid #000;
+  } */
+
+  /* prueba NAV */
+  header {
+    width: 100%;
+    position: fixed;
+    z-index: 10; 
+    margin: auto;
+    }
+    ul {
+
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: 400;
+        font-family: "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        
+        list-style-type: none;
+        margin: 0;
+        padding-left: 10%;
+        padding-right: 10%;
+        overflow: hidden;
+        background-color: #333;
+    }
+    
+    li {
+        float: left;
+    }
+    
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    
+    li a:hover:not(.active) {
+        background-color: #111;
+    }
+
+    .title-ciudadpin {
+        /* margin-left: 2%; */
+        padding: 10px;
+        color: white;
+    }
+
+   .toggle-btn
+    {
+        color: white;
+        padding: 10px;
+    }

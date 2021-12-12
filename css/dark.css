@@ -1,0 +1,24 @@
+#modo{
+    width: 15px;
+    font-size: 40px;
+    margin:auto; 
+    cursor: pointer;
+    float:right
+}
+
+
+.dark {
+    background-color: #292929;
+    /* line-height: 24px;
+    font-weight: 400; */
+    font-family: "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #FFFFFF; 
+  }
+  .toggle-btn{
+    color: #FFFFFF; 
+    cursor: pointer;
+    font-size: 30px;
+    float:left;
+    margin:auto; 
+    padding: auto;
+  }
